@@ -14,6 +14,7 @@ public class LxpRepositoryTest {
     LxpRepository lxpRepository;
     @Test
     public void getLxpById(){
+
         Lxp lxp = lxpRepository.getLxpById(1);
         System.out.println(lxp.getPangBaoBei());
     }
