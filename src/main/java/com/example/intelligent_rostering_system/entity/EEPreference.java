@@ -14,8 +14,8 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @Component
-@Table(name = "empPreference")
-public class EmpPreference {
+@Table(name = "EEPreference")
+public class EEPreference {
     @Column(name = "prefTyp", nullable = true,unique = false)
     private String prefTyp;
     @Id
