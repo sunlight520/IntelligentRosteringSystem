@@ -21,10 +21,10 @@ public class EEPreference {
     @Id
     @Column(name = "employee", nullable = true,unique = false)
     private String employee;
+    //    工作日偏好值
     @Column(name = "prefDayVal", nullable = true,unique = false)
-//    工作日偏好值
     private String prefDVal;
-//    工作时间偏好值
+    //    工作时间偏好值
     @Column(name = "prefTVal", nullable = true,unique = false)
     private String prefTVal;
 /*
